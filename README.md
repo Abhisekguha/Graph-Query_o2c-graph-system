@@ -48,7 +48,12 @@ A production-ready **3D graph-based data modeling** and natural language query s
 
 ### 🎥 Video Demonstration
 
-[Watch the live demo video](docs/20260322-2234-54.9297511.mp4)
+<video src="docs/20260322-2234-54.9297511.mp4" controls width="100%" style="max-width: 800px;">
+  Your browser does not support the video tag. 
+  <a href="docs/20260322-2234-54.9297511.mp4">Download the demo video</a>
+</video>
+
+**[📥 Download Full Demo Video](docs/20260322-2234-54.9297511.mp4)** (MP4)
 
 *Full system demonstration showing 3D graph interaction, natural language queries, and real-time node highlighting in action.*
 
