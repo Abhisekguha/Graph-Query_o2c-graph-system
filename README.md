@@ -50,7 +50,7 @@ A production-ready **3D graph-based data modeling** and natural language query s
 
 ![SAP O2C Graph System - Video Demo](docs/20260322-2234-54.9297511.gif)
 
-**[📥 Download Full Demo Video (MP4)](docs/20260322-2234-54.9297511.mp4)** for higher quality
+**[📥 Download Full Demo Video (MP4)](docs/20260322-2256-45.5469791.mp4)** for higher quality
 
 *Full system demonstration showing 3D graph interaction, natural language queries, and real-time node highlighting in action.*
 
