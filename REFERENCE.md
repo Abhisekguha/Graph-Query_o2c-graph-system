@@ -9,6 +9,9 @@
 
 Transform fragmented SAP O2C data into an immersive 3D graph and explore it using natural language queries.
 
+**📸 Screenshot:** [docs/screenshot.png](docs/screenshot.png)  
+**🎥 Video Demo:** [docs/20260322-2234-54.9297511.mp4](docs/20260322-2234-54.9297511.mp4)
+
 ---
 
 ## ⚡ Quick Start (5 Minutes)
@@ -33,6 +36,33 @@ npm start                                # Runs on :3000
 ### Browser
 ```
 http://localhost:3000
+```
+
+---
+
+## 📦 Dataset Setup
+
+**⚠️ CRITICAL**: Dataset folders must be in parent directory!
+
+**Correct Structure:**
+```
+sap-o2c-data/                    ← Parent folder
+├── sales_order_headers/         ← Dataset folders
+├── billing_document_headers/
+├── products/
+├── ... (all dataset folders)
+└── sap-o2c-graph-system/        ← Application folder
+    ├── backend/
+    └── frontend/
+```
+
+**📥 Download Dataset:**  
+[Google Drive Link](https://drive.google.com/file/d/1UqaLbFaveV-3MEuiUrzKydhKmkeC1iAL/view)
+
+**Verification:**
+```bash
+# From sap-o2c-data/ directory
+ls -la  # Should show both dataset folders and sap-o2c-graph-system/
 ```
 
 ---
@@ -100,7 +130,7 @@ User Browser (React + Three.js)
          ↓
     REST API (FastAPI)
          ↓
-   Graph Store (NetworkX) ←→ LLM (Gemini Pro)
+   Graph Store (NetworkX) ←→ LLM (Gemini-2.5-Flash)
          ↓
    JSONL Files (Raw Data)
 ```
@@ -116,11 +146,11 @@ JSONL → Parse → Build Graph → Serve API → Render 3D → User
 
 ## 📊 Key Statistics
 
-- **Nodes:** ~133,000 entities
-- **Edges:** ~216,000 relationships
-- **Query Time:** <2 seconds
-- **Graph Build:** ~10-15 seconds
-- **Render FPS:** 30-60 (recommended hardware)
+- **Nodes:** 1,226 entities
+- **Edges:** 5,146 relationships
+- **Query Time:** <500ms
+- **Graph Build:** ~2-3 seconds
+- **Render FPS:** 60 (lightweight dataset)
 
 ---
 
