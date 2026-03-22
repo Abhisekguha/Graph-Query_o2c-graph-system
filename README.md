@@ -85,13 +85,13 @@ This system solves a critical problem in enterprise data analysis: **making sens
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        USER INTERFACE LAYER                         │
 │                      (React 18 Frontend)                            │
-│  ┌────────────────┐  ┌─────────────────┐  ┌──────────────────────┐ │
-│  │ 3D Graph Viz   │  │ Chat Interface  │  │ Statistics Panel     │ │
-│  │ (Force Graph)  │  │ (Query System)  │  │ (Real-time Metrics)  │ │
-│  │ • Rotation     │  │ • NL Queries    │  │ • Node Counts        │ │
-│  │ • Zoom/Pan     │  │ • Context       │  │ • Edge Analytics     │ │
-│  │ • Node Hover   │  │ • History       │  │ • Flow Status        │ │
-│  └────────────────┘  └─────────────────┘  └──────────────────────┘ │
+│  ┌────────────────┐  ┌─────────────────┐  ┌──────────────────────┐  │
+│  │ 3D Graph Viz   │  │ Chat Interface  │  │ Statistics Panel     │  │
+│  │ (Force Graph)  │  │ (Query System)  │  │ (Real-time Metrics)  │  │
+│  │ • Rotation     │  │ • NL Queries    │  │ • Node Counts        │  │
+│  │ • Zoom/Pan     │  │ • Context       │  │ • Edge Analytics     │  │
+│  │ • Node Hover   │  │ • History       │  │ • Flow Status        │  │
+│  └────────────────┘  └─────────────────┘  └──────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────┘
                               │
                               │ REST API (Axios)
