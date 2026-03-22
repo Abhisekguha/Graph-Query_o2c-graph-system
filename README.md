@@ -904,7 +904,7 @@ sap-o2c-graph-system/
 │   │   └── index.html
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── GraphVisualization.js  # 2D graph component
+│   │   │   ├── GraphVisualization.js  # 3D graph component
 │   │   │   ├── ChatInterface.js       # Chat UI
 │   │   │   ├── Header.js              # Top bar
 │   │   │   └── StatsPanel.js          # Statistics display
