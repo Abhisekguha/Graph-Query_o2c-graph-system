@@ -6,7 +6,7 @@ A production-ready **3D graph-based data modeling** and natural language query s
 ![Backend](https://img.shields.io/badge/Backend-FastAPI-green)
 ![Frontend](https://img.shields.io/badge/Frontend-React-blue)
 ![Visualization](https://img.shields.io/badge/Visualization-3D%20Interactive-purple)
-![LLM](https://img.shields.io/badge/LLM-Gemini--Pro-yellow)
+![LLM](https://img.shields.io/badge/LLM-Gemini--2.5-flash-yellow)
 
 ---
 
